@@ -1,0 +1,226 @@
+{
+  "basics": {
+    "name": "Daniel Carter",
+    "label": "Web Developer",
+    "picture": "daniel.jpg",
+    "email": "carterdanielr@gmail.com",
+    "phone": "(513) 519-7464",
+    "website": "https://danielcarter.io",
+    "summary": "Experienced Web Developer with strong communication skills and a demonstrated history of working in the computer software industry.",
+    "location": {
+      "address": "",
+      "postalCode": "45140",
+      "city": "Loveland",
+      "countryCode": "US",
+      "region": "Ohio"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/daniel-carter-a49b9b41/"
+      },
+      {
+        "network": "Github",
+        "username": "tealicous",
+        "url": "https://github.com/tealicious"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Oodle",
+      "position": "Developer",
+      "website": "http://oodle.io/",
+      "startDate": "2017-07-01",
+      "summary": "Oodle is a Cincinnati digital marketing agency that specializes in fueling experiences and brand development in the ever-changing digital realm.",
+      "highlights_with_links": [
+        {
+          "website": "https://vocal-smokescreen.cloudvent.net/employers/overview/",
+          "title": "EyeMed",
+          "content": "Develop front end layouts in Pattern Lab and scalable pilot website with Jekyll and CloudCannon"
+        },
+        {
+          "website": "https://rugged-bat.cloudvent.net/",
+          "title": "Patrick Cudahy",
+          "content": "Develop front end layouts in Pattern Lab and website with Jekyll and CloudCannon"
+        },
+        {
+          "website": "https://www.makino.com/",
+          "title": "Makino",
+          "content": "Develop front-end layouts and web components with Pattern Lab and Vue.js"
+        },
+        {
+          "website": "https://blog.lemproducts.com/",
+          "title": "LEM",
+          "content": "Develop front end layouts in Pattern Lab and custom blog with Jekyll and Cloudcannon"
+        },
+        {
+          "website": "https://blog.rootsandharvest.com/",
+          "title": "Roots and Harvest",
+          "content": "Develop front end layouts in Pattern Lab and custom blog with Jekyll and Cloudcannon"
+        },
+        {
+          "website": "http://www.margheritameats.com/",
+          "title": "Margherita Meats",
+          "content": "Develop front end layouts in Pattern Lab and website with Jekyll"
+        },
+        {
+          "website": "https://nattynutrition.com/",
+          "title": "Natty Nutrition",
+          "content": "Customize pre-existing Shopify theme and create custom layouts with Liquid templating"
+        },
+        {
+          "website": "https://blog.mercy.com/",
+          "title": "Mercy Health Blog",
+          "content": "Develop front-end layouts in Pattern Lab, continuously maintain and update Wordpress theme per client request"
+        },
+        {
+          "website": "https://nathansfamous.com/",
+          "title": "Nathan's Famous Hot Dogs",
+          "content": "Develop new content layouts in Jekyll, for use with Cloud Cannon, and maintain website event pages"
+        }
+      ]
+    },
+    {
+      "company": "Hyperdrive Interactive",
+      "position": "Front End Web Developer",
+      "website": "http://hyperdrivei.com/",
+      "startDate": "2016-10-01",
+      "endDate": "2017-07-01",
+      "summary": "HyperDrive Interactive is a progressive internet marketing company with expertise in email marketing, word of mouth marketing, digital branding, and brand fan community building.",
+      "highlights_with_links": [
+        {
+          "website": "http://bgcgh.org/",
+          "title": "Boys and Girls Clubs of Greater Houston",
+          "content": "Develop entire front end, research and help conceptualize best layouts to improve donation conversion"
+        },
+        {
+          "website": "http://www.norton-outdoor.com/browse-inventory",
+          "title": "Norton Outdoor Advertising",
+          "content": "Develop Google Maps buyer's application and site"
+        },
+        {
+          "website": "http://hyperdrivei.com/",
+          "title": "HyperDrive Overhaul",
+          "content": "Develop Hyperdrive's new homepage"
+        }
+      ]
+    },
+    {
+      "company": "DanielCarter.io",
+      "position": "Developer",
+      "website": "https://danielcarter.io/",
+      "startDate": "2015-11-01",
+      "summary": "Do you need a freelance developer? Let's talk.",
+      "highlights_with_links": [
+        {
+          "website": "https://strawberrytapes.com/",
+          "title": "Strawberry Tapes",
+          "content": "Develop and host promo landing page for an album release"
+        },
+        {
+          "website": "https://carterknifeco.com/#/",
+          "title": "Carter Knife Company",
+          "content": "Develop e-commerce website that allows client to update inventory and content via Cloudcannon"
+        },
+        {
+          "website": "http://wildmendie.com/",
+          "title": "Wild Men Die",
+          "content": "Motorcycle helmet PSA. Conceive of and research copy and develop site"
+        }
+      ]
+    },
+    {
+      "company": "Intelligrated",
+      "position": "Web Content Administrator",
+      "website": "https://ontimeparts.com/OA_HTML/ibeCZzpHome.jsp?minisite=10020",
+      "startDate": "2012-01-01",
+      "endDate": "2015-07-01",
+      "summary": "Honeywell Intelligrated is a leading single-source provider of intelligent automated material handling solutions that drive fulfillment productivity for retailers, manufacturers and logistics providers around the world.",
+      "highlights": [
+        "Train, lead and plan out weekly photography workflow for diverse project work groups",
+        "Oversee or personally shoot original photo content for over 400 pieces monthly",
+        "Manage the uploading, downloading, copying and editing of digital files on a daily basis (20,000+ photos uploaded to date)",
+        "Alter all shot images with advanced image manipulation techniques",
+        "Peer review and revise old photographic content",
+        "Assign tech support contract end dates and grant specific access rights to registered Dashboard users approx. 3-4 time weekly",
+        "Create Dashboard company profiles for new customers approx. 1-5 times weekly",
+        "Beta test new design features in OnTimeParts.com"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Miami University Ohio",
+      "area": "Speech Communication",
+      "studyType": "Bachelor",
+      "startDate": "2004-01-01",
+      "endDate": "2008-01-01",
+      "gpa": "3.2",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front End",
+      "level": "master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "Liquid",
+        "Markdown",
+        "Front Matter",
+        "ADA compliance",
+        "Razor"
+      ]
+    },
+    {
+      "name": "System",
+      "level": "master",
+      "keywords": ["macOS", "Windows 10", "Google Docs"]
+    },
+    {
+      "name": "Javascript",
+      "level": "advanced",
+      "keywords": ["Vue.js", "jQuery", "ES6", "Mustache"]
+    },
+    {
+      "name": "Animation",
+      "level": "advanced",
+      "keywords": ["ScrollMagic.js", "Animating SVG", "Google Web Designer"]
+    },
+    {
+      "name": "Static Site Generators",
+      "level": "advanced",
+      "keywords": ["Jekyll", "Visual Studio", "Pattern Lab"]
+    },
+    {
+      "name": "CMS",
+      "level": "advanced",
+      "keywords": ["Cloud Cannon", "Shopify", "WordPress"]
+    },
+    {
+      "name": "Workflow",
+      "level": "intermediate",
+      "keywords": ["Webpack", "Gulp"]
+    },
+    {
+      "name": "Image Manipulation",
+      "level": "intermediate",
+      "keywords": ["Photoshop", "GIMP"]
+    },
+    {
+      "name": "Server-side",
+      "level": "beginner",
+      "keywords": ["PHP", "ASP.NET MVC"]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native speaker"
+    }
+  ]
+}

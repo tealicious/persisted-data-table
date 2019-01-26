@@ -1,0 +1,120 @@
+.table-striped tbody tr:nth-of-type(odd) {
+  .bg-primary {
+    background-color: darken(#007bff, 5%) !important;
+  }
+}
+table {
+  padding-top: 5px;
+  border: 1px solid #dee2e6;
+  border-top: none;
+}
+.container-fluid {
+  margin-bottom: 2rem;
+  max-width: 1200px;
+}
+th,
+td {
+  border: none !important;
+  &:nth-last-of-type(-n + 3) {
+    text-align: right;
+    input,
+    textarea {
+      text-align: right;
+    }
+    div {
+      justify-content: flex-end;
+    }
+  }
+}
+td {
+  position: relative;
+  &.editable {
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    &:hover,
+    &:focus-within {
+      box-shadow: 4px 4px 13px #bbb;
+    }
+  }
+  textarea,
+  input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.75rem;
+    z-index: 1;
+    overflow: auto;
+  }
+  .btn {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+  }
+}
+table .faux-btn {
+  vertical-align: middle !important;
+}
+table .faux-btn {
+  text-align: center;
+  cursor: pointer;
+  width: 75px;
+  &:focus {
+    z-index: 1;
+  }
+}
+th {
+  border-top: none;
+  cursor: pointer;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  svg {
+    height: 16px;
+    margin-left: 0.25rem;
+  }
+  &:focus {
+    outline: none;
+    color: #006fe6;
+  }
+}
+.page-row {
+  position: sticky;
+  left: 0;
+  top: 0;
+  background: white;
+  z-index: 2;
+}
+
+td {
+  &.Name {
+    white-space: nowrap;
+    width: 150px;
+  }
+  &.Description {
+    width: 500px;
+  }
+}
+
+td,
+textarea,
+input {
+  font-size: 14px;
+}
+
+.searchwrap {
+  display: flex;
+  justify-content: flex-start;
+  input {
+    flex: 1;
+  }
+  .pagination {
+    margin-left: 2rem;
+  }
+}
