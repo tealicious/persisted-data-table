@@ -1,5 +1,4 @@
 import payments from "@/payments";
-
 export const objectValsToString = o => {
   Object.keys(o).forEach(k => {
     if (typeof o[k] === "object") {
@@ -9,19 +8,15 @@ export const objectValsToString = o => {
   });
   return o;
 };
-
 export const fireBaseUrl = "https://persisted-data-table.firebaseio.com/";
-
 export const arrayToObject = array =>
   array.reduce((obj, item) => {
     obj[item.id] = item;
     return obj;
   }, {});
-
 export const originalOrder = payments.map(payment => {
   return payment.ID;
 });
-
 export const forceOrder = table => {
   return table.map(row => {
     return {
@@ -34,7 +29,6 @@ export const forceOrder = table => {
     };
   });
 };
-
 export const setOrder = (rows, originalOrder) => {
   const orderedRows = [];
   originalOrder.map(originID => {
@@ -46,7 +40,6 @@ export const setOrder = (rows, originalOrder) => {
   });
   return orderedRows;
 };
-
 export const q1 = [
   104,
   116,

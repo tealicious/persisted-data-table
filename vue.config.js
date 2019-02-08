@@ -22,5 +22,7 @@ module.exports = {
         "@mixins": path.resolve(__dirname, "src/mixins")
       }
     }
-  }
+  },
+  baseUrl:
+    process.env.NODE_ENV === "production" ? "/persisted-data-table-live/" : "/"
 };
