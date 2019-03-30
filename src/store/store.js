@@ -41,14 +41,11 @@ export default new Vuex.Store({
       this.commit("setHeaders");
       state.loading = false;
     },
-    saveRows(state, payload) {
-      const firebaseState = setOrder(payload, originalOrder);
-      return new FirebaseApi().putTable(firebaseState).then(() => {
-        setTimeout(() => {
-          // for effect
-          state.saving = false;
-        }, 700);
-      });
+    saveRows(state) {
+      setTimeout(() => {
+        // for effect
+        state.saving = false;
+      }, 700);
     }
   },
   actions: {
@@ -61,7 +58,10 @@ export default new Vuex.Store({
     },
     SAVE(context, payload) {
       context.state.saving = true;
-      return context.commit("saveRows", payload);
+      const firebaseState = setOrder(payload, originalOrder);
+      return new FirebaseApi().putTable(firebaseState).then(() => {
+        context.commit("saveRows");
+      });
     }
   }
 });
